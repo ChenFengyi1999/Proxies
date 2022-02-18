@@ -5,87 +5,87 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 中国伟科技@TG/油管, server: mg03.nfeng6.pp.ua, port: 63069, type: vmess, uuid: 042250a0-5c14-3394-b57e-cf4970f5dcfc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: mugua-us03.covid19.rip}, udp: true}
-  - {name: 美国伟科技@TG/油管, server: zylsj.luosi.me, port: 53810, type: vmess, uuid: b29a5a32-1478-4cef-a7aa-1de043167a1c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: zylsj.luosi.me}, udp: true}
-  - {name: 中国伟科技@TG/油管 2, server: gghaw.lhyun.cc, port: 53802, type: vmess, uuid: b29a5a32-1478-4cef-a7aa-1de043167a1c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 中国伟科技@TG/油管 3, server: gy.lhyun.cc, port: 40111, type: vmess, uuid: b29a5a32-1478-4cef-a7aa-1de043167a1c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gy.lhyun.cc}, udp: true}
-  - {name: 中国伟科技@TG/油管 4, server: gy.lhyun.cc, port: 40132, type: vmess, uuid: b29a5a32-1478-4cef-a7aa-1de043167a1c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gy.lhyun.cc}, udp: true}
-  - {name: 中国阿伟科技@TG/油管, server: gzcm.v2hub.top, port: 19201, type: vmess, uuid: da8f4c57-d022-3ccc-ae2a-a70256d68c32, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 中国伟科技@TG/油管 5, server: gghaw.lhyun.cc, port: 53807, type: vmess, uuid: b29a5a32-1478-4cef-a7aa-1de043167a1c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 中国阿伟科技@TG/油管 2, server: gzcm.v2hub.top, port: 19521, type: trojan, password: da8f4c57-d022-3ccc-ae2a-a70256d68c32, sni: gzcm.v2hub.top, skip-cert-verify: true, udp: true}
-  - {name: 中国伟科技@TG/油管 6, server: gghaw.lhyun.cc, port: 53804, type: vmess, uuid: b29a5a32-1478-4cef-a7aa-1de043167a1c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 中国伟科技@TG/油管 7, server: gy.lhyun.cc, port: 40007, type: vmess, uuid: b29a5a32-1478-4cef-a7aa-1de043167a1c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gy.lhyun.cc}, udp: true}
-  - {name: 中国伟科技@TG/油管 8, server: gghaw.lhyun.cc, port: 53805, type: vmess, uuid: b29a5a32-1478-4cef-a7aa-1de043167a1c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 中国阿伟科技@TG/油管 3, server: gzcm.v2hub.top, port: 19221, type: trojan, password: da8f4c57-d022-3ccc-ae2a-a70256d68c32, sni: gzcm.v2hub.top, skip-cert-verify: true, udp: true}
-  - {name: 中国伟科技@TG/油管 9, server: gy.lhyun.cc, port: 40001, type: vmess, uuid: b29a5a32-1478-4cef-a7aa-1de043167a1c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gy.lhyun.cc}, udp: true}
-  - {name: 中国伟科技@TG/油管 10, server: gy.lhyun.cc, port: 40016, type: vmess, uuid: b29a5a32-1478-4cef-a7aa-1de043167a1c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gy.lhyun.cc}, udp: true}
-  - {name: 中国伟科技@TG/油管 11, server: gghaw.lhyun.cc, port: 53801, type: vmess, uuid: b29a5a32-1478-4cef-a7aa-1de043167a1c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 中国伟科技@TG/油管 12, server: gghaw.lhyun.cc, port: 53808, type: vmess, uuid: b29a5a32-1478-4cef-a7aa-1de043167a1c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: test, server: mg03.nfeng6.pp.ua, port: 63069, type: vmess, uuid: 042250a0-5c14-3394-b57e-cf4970f5dcfc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: mugua-us03.covid19.rip}, udp: true}
+  - {name: test 2, server: zylsj.luosi.me, port: 53810, type: vmess, uuid: b29a5a32-1478-4cef-a7aa-1de043167a1c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: zylsj.luosi.me}, udp: true}
+  - {name: test 3, server: gghaw.lhyun.cc, port: 53802, type: vmess, uuid: b29a5a32-1478-4cef-a7aa-1de043167a1c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: test 4, server: gy.lhyun.cc, port: 40111, type: vmess, uuid: b29a5a32-1478-4cef-a7aa-1de043167a1c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gy.lhyun.cc}, udp: true}
+  - {name: test 5, server: gy.lhyun.cc, port: 40132, type: vmess, uuid: b29a5a32-1478-4cef-a7aa-1de043167a1c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gy.lhyun.cc}, udp: true}
+  - {name: test 6, server: gzcm.v2hub.top, port: 19201, type: vmess, uuid: da8f4c57-d022-3ccc-ae2a-a70256d68c32, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: test 7, server: gghaw.lhyun.cc, port: 53807, type: vmess, uuid: b29a5a32-1478-4cef-a7aa-1de043167a1c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: test 8, server: gzcm.v2hub.top, port: 19521, type: trojan, password: da8f4c57-d022-3ccc-ae2a-a70256d68c32, sni: gzcm.v2hub.top, skip-cert-verify: true, udp: true}
+  - {name: test 9, server: gghaw.lhyun.cc, port: 53804, type: vmess, uuid: b29a5a32-1478-4cef-a7aa-1de043167a1c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: test 10, server: gy.lhyun.cc, port: 40007, type: vmess, uuid: b29a5a32-1478-4cef-a7aa-1de043167a1c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gy.lhyun.cc}, udp: true}
+  - {name: test 11, server: gghaw.lhyun.cc, port: 53805, type: vmess, uuid: b29a5a32-1478-4cef-a7aa-1de043167a1c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: test 12, server: gzcm.v2hub.top, port: 19221, type: trojan, password: da8f4c57-d022-3ccc-ae2a-a70256d68c32, sni: gzcm.v2hub.top, skip-cert-verify: true, udp: true}
+  - {name: test 13, server: gy.lhyun.cc, port: 40001, type: vmess, uuid: b29a5a32-1478-4cef-a7aa-1de043167a1c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gy.lhyun.cc}, udp: true}
+  - {name: test 14, server: gy.lhyun.cc, port: 40016, type: vmess, uuid: b29a5a32-1478-4cef-a7aa-1de043167a1c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gy.lhyun.cc}, udp: true}
+  - {name: test 15, server: gghaw.lhyun.cc, port: 53801, type: vmess, uuid: b29a5a32-1478-4cef-a7aa-1de043167a1c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: test 16, server: gghaw.lhyun.cc, port: 53808, type: vmess, uuid: b29a5a32-1478-4cef-a7aa-1de043167a1c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 中国伟科技@TG/油管
-      - 美国伟科技@TG/油管
-      - 中国伟科技@TG/油管 2
-      - 中国伟科技@TG/油管 3
-      - 中国伟科技@TG/油管 4
-      - 中国阿伟科技@TG/油管
-      - 中国伟科技@TG/油管 5
-      - 中国阿伟科技@TG/油管 2
-      - 中国伟科技@TG/油管 6
-      - 中国伟科技@TG/油管 7
-      - 中国伟科技@TG/油管 8
-      - 中国阿伟科技@TG/油管 3
-      - 中国伟科技@TG/油管 9
-      - 中国伟科技@TG/油管 10
-      - 中国伟科技@TG/油管 11
-      - 中国伟科技@TG/油管 12
+      - test
+      - test 2
+      - test 3
+      - test 4
+      - test 5
+      - test 6
+      - test 7
+      - test 8
+      - test 9
+      - test 10
+      - test 11
+      - test 12
+      - test 13
+      - test 14
+      - test 15
+      - test 16
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 中国伟科技@TG/油管
-      - 美国伟科技@TG/油管
-      - 中国伟科技@TG/油管 2
-      - 中国伟科技@TG/油管 3
-      - 中国伟科技@TG/油管 4
-      - 中国阿伟科技@TG/油管
-      - 中国伟科技@TG/油管 5
-      - 中国阿伟科技@TG/油管 2
-      - 中国伟科技@TG/油管 6
-      - 中国伟科技@TG/油管 7
-      - 中国伟科技@TG/油管 8
-      - 中国阿伟科技@TG/油管 3
-      - 中国伟科技@TG/油管 9
-      - 中国伟科技@TG/油管 10
-      - 中国伟科技@TG/油管 11
-      - 中国伟科技@TG/油管 12
+      - test
+      - test 2
+      - test 3
+      - test 4
+      - test 5
+      - test 6
+      - test 7
+      - test 8
+      - test 9
+      - test 10
+      - test 11
+      - test 12
+      - test 13
+      - test 14
+      - test 15
+      - test 16
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 中国伟科技@TG/油管
-      - 美国伟科技@TG/油管
-      - 中国伟科技@TG/油管 2
-      - 中国伟科技@TG/油管 3
-      - 中国伟科技@TG/油管 4
-      - 中国阿伟科技@TG/油管
-      - 中国伟科技@TG/油管 5
-      - 中国阿伟科技@TG/油管 2
-      - 中国伟科技@TG/油管 6
-      - 中国伟科技@TG/油管 7
-      - 中国伟科技@TG/油管 8
-      - 中国阿伟科技@TG/油管 3
-      - 中国伟科技@TG/油管 9
-      - 中国伟科技@TG/油管 10
-      - 中国伟科技@TG/油管 11
-      - 中国伟科技@TG/油管 12
+      - test
+      - test 2
+      - test 3
+      - test 4
+      - test 5
+      - test 6
+      - test 7
+      - test 8
+      - test 9
+      - test 10
+      - test 11
+      - test 12
+      - test 13
+      - test 14
+      - test 15
+      - test 16
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -104,22 +104,22 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 中国伟科技@TG/油管
-      - 美国伟科技@TG/油管
-      - 中国伟科技@TG/油管 2
-      - 中国伟科技@TG/油管 3
-      - 中国伟科技@TG/油管 4
-      - 中国阿伟科技@TG/油管
-      - 中国伟科技@TG/油管 5
-      - 中国阿伟科技@TG/油管 2
-      - 中国伟科技@TG/油管 6
-      - 中国伟科技@TG/油管 7
-      - 中国伟科技@TG/油管 8
-      - 中国阿伟科技@TG/油管 3
-      - 中国伟科技@TG/油管 9
-      - 中国伟科技@TG/油管 10
-      - 中国伟科技@TG/油管 11
-      - 中国伟科技@TG/油管 12
+      - test
+      - test 2
+      - test 3
+      - test 4
+      - test 5
+      - test 6
+      - test 7
+      - test 8
+      - test 9
+      - test 10
+      - test 11
+      - test 12
+      - test 13
+      - test 14
+      - test 15
+      - test 16
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -130,65 +130,65 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 中国伟科技@TG/油管
-      - 美国伟科技@TG/油管
-      - 中国伟科技@TG/油管 2
-      - 中国伟科技@TG/油管 3
-      - 中国伟科技@TG/油管 4
-      - 中国阿伟科技@TG/油管
-      - 中国伟科技@TG/油管 5
-      - 中国阿伟科技@TG/油管 2
-      - 中国伟科技@TG/油管 6
-      - 中国伟科技@TG/油管 7
-      - 中国伟科技@TG/油管 8
-      - 中国阿伟科技@TG/油管 3
-      - 中国伟科技@TG/油管 9
-      - 中国伟科技@TG/油管 10
-      - 中国伟科技@TG/油管 11
-      - 中国伟科技@TG/油管 12
+      - test
+      - test 2
+      - test 3
+      - test 4
+      - test 5
+      - test 6
+      - test 7
+      - test 8
+      - test 9
+      - test 10
+      - test 11
+      - test 12
+      - test 13
+      - test 14
+      - test 15
+      - test 16
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 中国伟科技@TG/油管
-      - 美国伟科技@TG/油管
-      - 中国伟科技@TG/油管 2
-      - 中国伟科技@TG/油管 3
-      - 中国伟科技@TG/油管 4
-      - 中国阿伟科技@TG/油管
-      - 中国伟科技@TG/油管 5
-      - 中国阿伟科技@TG/油管 2
-      - 中国伟科技@TG/油管 6
-      - 中国伟科技@TG/油管 7
-      - 中国伟科技@TG/油管 8
-      - 中国阿伟科技@TG/油管 3
-      - 中国伟科技@TG/油管 9
-      - 中国伟科技@TG/油管 10
-      - 中国伟科技@TG/油管 11
-      - 中国伟科技@TG/油管 12
+      - test
+      - test 2
+      - test 3
+      - test 4
+      - test 5
+      - test 6
+      - test 7
+      - test 8
+      - test 9
+      - test 10
+      - test 11
+      - test 12
+      - test 13
+      - test 14
+      - test 15
+      - test 16
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 中国伟科技@TG/油管
-      - 美国伟科技@TG/油管
-      - 中国伟科技@TG/油管 2
-      - 中国伟科技@TG/油管 3
-      - 中国伟科技@TG/油管 4
-      - 中国阿伟科技@TG/油管
-      - 中国伟科技@TG/油管 5
-      - 中国阿伟科技@TG/油管 2
-      - 中国伟科技@TG/油管 6
-      - 中国伟科技@TG/油管 7
-      - 中国伟科技@TG/油管 8
-      - 中国阿伟科技@TG/油管 3
-      - 中国伟科技@TG/油管 9
-      - 中国伟科技@TG/油管 10
-      - 中国伟科技@TG/油管 11
-      - 中国伟科技@TG/油管 12
+      - test
+      - test 2
+      - test 3
+      - test 4
+      - test 5
+      - test 6
+      - test 7
+      - test 8
+      - test 9
+      - test 10
+      - test 11
+      - test 12
+      - test 13
+      - test 14
+      - test 15
+      - test 16
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -204,22 +204,22 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 中国伟科技@TG/油管
-      - 美国伟科技@TG/油管
-      - 中国伟科技@TG/油管 2
-      - 中国伟科技@TG/油管 3
-      - 中国伟科技@TG/油管 4
-      - 中国阿伟科技@TG/油管
-      - 中国伟科技@TG/油管 5
-      - 中国阿伟科技@TG/油管 2
-      - 中国伟科技@TG/油管 6
-      - 中国伟科技@TG/油管 7
-      - 中国伟科技@TG/油管 8
-      - 中国阿伟科技@TG/油管 3
-      - 中国伟科技@TG/油管 9
-      - 中国伟科技@TG/油管 10
-      - 中国伟科技@TG/油管 11
-      - 中国伟科技@TG/油管 12
+      - test
+      - test 2
+      - test 3
+      - test 4
+      - test 5
+      - test 6
+      - test 7
+      - test 8
+      - test 9
+      - test 10
+      - test 11
+      - test 12
+      - test 13
+      - test 14
+      - test 15
+      - test 16
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
