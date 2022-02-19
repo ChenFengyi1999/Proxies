@@ -5,87 +5,71 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: test, server: mg03.nfeng6.pp.ua, port: 63069, type: vmess, uuid: 042250a0-5c14-3394-b57e-cf4970f5dcfc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: mugua-us03.covid19.rip}, udp: true}
-  - {name: test 2, server: zylsj.luosi.me, port: 53810, type: vmess, uuid: b29a5a32-1478-4cef-a7aa-1de043167a1c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: zylsj.luosi.me}, udp: true}
-  - {name: test 3, server: gghaw.lhyun.cc, port: 53802, type: vmess, uuid: b29a5a32-1478-4cef-a7aa-1de043167a1c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: test 4, server: gy.lhyun.cc, port: 40111, type: vmess, uuid: b29a5a32-1478-4cef-a7aa-1de043167a1c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gy.lhyun.cc}, udp: true}
-  - {name: test 5, server: gy.lhyun.cc, port: 40132, type: vmess, uuid: b29a5a32-1478-4cef-a7aa-1de043167a1c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gy.lhyun.cc}, udp: true}
-  - {name: test 6, server: gzcm.v2hub.top, port: 19201, type: vmess, uuid: da8f4c57-d022-3ccc-ae2a-a70256d68c32, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: test 7, server: gghaw.lhyun.cc, port: 53807, type: vmess, uuid: b29a5a32-1478-4cef-a7aa-1de043167a1c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: test 8, server: gzcm.v2hub.top, port: 19521, type: trojan, password: da8f4c57-d022-3ccc-ae2a-a70256d68c32, sni: gzcm.v2hub.top, skip-cert-verify: true, udp: true}
-  - {name: test 9, server: gghaw.lhyun.cc, port: 53804, type: vmess, uuid: b29a5a32-1478-4cef-a7aa-1de043167a1c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: test 10, server: gy.lhyun.cc, port: 40007, type: vmess, uuid: b29a5a32-1478-4cef-a7aa-1de043167a1c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gy.lhyun.cc}, udp: true}
-  - {name: test 11, server: gghaw.lhyun.cc, port: 53805, type: vmess, uuid: b29a5a32-1478-4cef-a7aa-1de043167a1c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: test 12, server: gzcm.v2hub.top, port: 19221, type: trojan, password: da8f4c57-d022-3ccc-ae2a-a70256d68c32, sni: gzcm.v2hub.top, skip-cert-verify: true, udp: true}
-  - {name: test 13, server: gy.lhyun.cc, port: 40001, type: vmess, uuid: b29a5a32-1478-4cef-a7aa-1de043167a1c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gy.lhyun.cc}, udp: true}
-  - {name: test 14, server: gy.lhyun.cc, port: 40016, type: vmess, uuid: b29a5a32-1478-4cef-a7aa-1de043167a1c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gy.lhyun.cc}, udp: true}
-  - {name: test 15, server: gghaw.lhyun.cc, port: 53801, type: vmess, uuid: b29a5a32-1478-4cef-a7aa-1de043167a1c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: test 16, server: gghaw.lhyun.cc, port: 53808, type: vmess, uuid: b29a5a32-1478-4cef-a7aa-1de043167a1c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇨🇳CN-🇭🇰HK_328, server: shonlinecu.proconcn.xyz, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 51187:ff112233, obfs-param: "", udp: true}
+  - {name: Relay_🇨🇳CN-🇹🇼TW_370, server: 120.233.10.182, port: 5702, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 63277:a4XecS, obfs-param: windows.com, udp: true}
+  - {name: Relay_🇨🇳CN-🇭🇰HK_345, server: shcris02stand.proconcn.xyz, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 51187:ff112233, obfs-param: "", udp: true}
+  - {name: Relay_🇨🇳CN-🇭🇰HK_331, server: shonlinecu.proconcn.xyz, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 51187:ff112233, obfs-param: "", udp: true}
+  - {name: Relay_🇨🇳CN-🇭🇰HK_398, server: mg04.nfeng6.pp.ua, port: 63078, type: vmess, uuid: 042250a0-5c14-3394-b57e-cf4970f5dcfc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: mg04.nfeng6.pp.ua}, udp: true}
+  - {name: HK_718, server: 118.107.244.112, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: Relay_🇨🇳CN-🇹🇼TW_359, server: 120.233.10.182, port: 5704, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 63277:a4XecS, obfs-param: e167063277.microsoft.com, udp: true}
+  - {name: HK_737, server: 118.107.244.112, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: Relay_🇭🇰HK-🇭🇰HK_755, server: v1.mumi.bid, port: 10122, type: vmess, uuid: c8c213ae-a922-4aa2-bc75-e2b529e05362, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: v1.mumi.bid}, udp: true}
+  - {name: HK_721, server: 118.107.244.114, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: HK_722, server: 118.107.244.112, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: HK_696, server: 118.107.244.112, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - test
-      - test 2
-      - test 3
-      - test 4
-      - test 5
-      - test 6
-      - test 7
-      - test 8
-      - test 9
-      - test 10
-      - test 11
-      - test 12
-      - test 13
-      - test 14
-      - test 15
-      - test 16
+      - Relay_🇨🇳CN-🇭🇰HK_328
+      - Relay_🇨🇳CN-🇹🇼TW_370
+      - Relay_🇨🇳CN-🇭🇰HK_345
+      - Relay_🇨🇳CN-🇭🇰HK_331
+      - Relay_🇨🇳CN-🇭🇰HK_398
+      - HK_718
+      - Relay_🇨🇳CN-🇹🇼TW_359
+      - HK_737
+      - Relay_🇭🇰HK-🇭🇰HK_755
+      - HK_721
+      - HK_722
+      - HK_696
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - test
-      - test 2
-      - test 3
-      - test 4
-      - test 5
-      - test 6
-      - test 7
-      - test 8
-      - test 9
-      - test 10
-      - test 11
-      - test 12
-      - test 13
-      - test 14
-      - test 15
-      - test 16
+      - Relay_🇨🇳CN-🇭🇰HK_328
+      - Relay_🇨🇳CN-🇹🇼TW_370
+      - Relay_🇨🇳CN-🇭🇰HK_345
+      - Relay_🇨🇳CN-🇭🇰HK_331
+      - Relay_🇨🇳CN-🇭🇰HK_398
+      - HK_718
+      - Relay_🇨🇳CN-🇹🇼TW_359
+      - HK_737
+      - Relay_🇭🇰HK-🇭🇰HK_755
+      - HK_721
+      - HK_722
+      - HK_696
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - test
-      - test 2
-      - test 3
-      - test 4
-      - test 5
-      - test 6
-      - test 7
-      - test 8
-      - test 9
-      - test 10
-      - test 11
-      - test 12
-      - test 13
-      - test 14
-      - test 15
-      - test 16
+      - Relay_🇨🇳CN-🇭🇰HK_328
+      - Relay_🇨🇳CN-🇹🇼TW_370
+      - Relay_🇨🇳CN-🇭🇰HK_345
+      - Relay_🇨🇳CN-🇭🇰HK_331
+      - Relay_🇨🇳CN-🇭🇰HK_398
+      - HK_718
+      - Relay_🇨🇳CN-🇹🇼TW_359
+      - HK_737
+      - Relay_🇭🇰HK-🇭🇰HK_755
+      - HK_721
+      - HK_722
+      - HK_696
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -104,22 +88,18 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - test
-      - test 2
-      - test 3
-      - test 4
-      - test 5
-      - test 6
-      - test 7
-      - test 8
-      - test 9
-      - test 10
-      - test 11
-      - test 12
-      - test 13
-      - test 14
-      - test 15
-      - test 16
+      - Relay_🇨🇳CN-🇭🇰HK_328
+      - Relay_🇨🇳CN-🇹🇼TW_370
+      - Relay_🇨🇳CN-🇭🇰HK_345
+      - Relay_🇨🇳CN-🇭🇰HK_331
+      - Relay_🇨🇳CN-🇭🇰HK_398
+      - HK_718
+      - Relay_🇨🇳CN-🇹🇼TW_359
+      - HK_737
+      - Relay_🇭🇰HK-🇭🇰HK_755
+      - HK_721
+      - HK_722
+      - HK_696
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -130,65 +110,53 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - test
-      - test 2
-      - test 3
-      - test 4
-      - test 5
-      - test 6
-      - test 7
-      - test 8
-      - test 9
-      - test 10
-      - test 11
-      - test 12
-      - test 13
-      - test 14
-      - test 15
-      - test 16
+      - Relay_🇨🇳CN-🇭🇰HK_328
+      - Relay_🇨🇳CN-🇹🇼TW_370
+      - Relay_🇨🇳CN-🇭🇰HK_345
+      - Relay_🇨🇳CN-🇭🇰HK_331
+      - Relay_🇨🇳CN-🇭🇰HK_398
+      - HK_718
+      - Relay_🇨🇳CN-🇹🇼TW_359
+      - HK_737
+      - Relay_🇭🇰HK-🇭🇰HK_755
+      - HK_721
+      - HK_722
+      - HK_696
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - test
-      - test 2
-      - test 3
-      - test 4
-      - test 5
-      - test 6
-      - test 7
-      - test 8
-      - test 9
-      - test 10
-      - test 11
-      - test 12
-      - test 13
-      - test 14
-      - test 15
-      - test 16
+      - Relay_🇨🇳CN-🇭🇰HK_328
+      - Relay_🇨🇳CN-🇹🇼TW_370
+      - Relay_🇨🇳CN-🇭🇰HK_345
+      - Relay_🇨🇳CN-🇭🇰HK_331
+      - Relay_🇨🇳CN-🇭🇰HK_398
+      - HK_718
+      - Relay_🇨🇳CN-🇹🇼TW_359
+      - HK_737
+      - Relay_🇭🇰HK-🇭🇰HK_755
+      - HK_721
+      - HK_722
+      - HK_696
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - test
-      - test 2
-      - test 3
-      - test 4
-      - test 5
-      - test 6
-      - test 7
-      - test 8
-      - test 9
-      - test 10
-      - test 11
-      - test 12
-      - test 13
-      - test 14
-      - test 15
-      - test 16
+      - Relay_🇨🇳CN-🇭🇰HK_328
+      - Relay_🇨🇳CN-🇹🇼TW_370
+      - Relay_🇨🇳CN-🇭🇰HK_345
+      - Relay_🇨🇳CN-🇭🇰HK_331
+      - Relay_🇨🇳CN-🇭🇰HK_398
+      - HK_718
+      - Relay_🇨🇳CN-🇹🇼TW_359
+      - HK_737
+      - Relay_🇭🇰HK-🇭🇰HK_755
+      - HK_721
+      - HK_722
+      - HK_696
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -204,22 +172,18 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - test
-      - test 2
-      - test 3
-      - test 4
-      - test 5
-      - test 6
-      - test 7
-      - test 8
-      - test 9
-      - test 10
-      - test 11
-      - test 12
-      - test 13
-      - test 14
-      - test 15
-      - test 16
+      - Relay_🇨🇳CN-🇭🇰HK_328
+      - Relay_🇨🇳CN-🇹🇼TW_370
+      - Relay_🇨🇳CN-🇭🇰HK_345
+      - Relay_🇨🇳CN-🇭🇰HK_331
+      - Relay_🇨🇳CN-🇭🇰HK_398
+      - HK_718
+      - Relay_🇨🇳CN-🇹🇼TW_359
+      - HK_737
+      - Relay_🇭🇰HK-🇭🇰HK_755
+      - HK_721
+      - HK_722
+      - HK_696
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
