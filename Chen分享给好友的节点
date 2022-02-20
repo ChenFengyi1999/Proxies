@@ -5,71 +5,103 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: Relay_🇨🇳CN-🇭🇰HK_328, server: shonlinecu.proconcn.xyz, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 51187:ff112233, obfs-param: "", udp: true}
-  - {name: Relay_🇨🇳CN-🇹🇼TW_370, server: 120.233.10.182, port: 5702, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 63277:a4XecS, obfs-param: windows.com, udp: true}
-  - {name: Relay_🇨🇳CN-🇭🇰HK_345, server: shcris02stand.proconcn.xyz, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 51187:ff112233, obfs-param: "", udp: true}
-  - {name: Relay_🇨🇳CN-🇭🇰HK_331, server: shonlinecu.proconcn.xyz, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 51187:ff112233, obfs-param: "", udp: true}
-  - {name: Relay_🇨🇳CN-🇭🇰HK_398, server: mg04.nfeng6.pp.ua, port: 63078, type: vmess, uuid: 042250a0-5c14-3394-b57e-cf4970f5dcfc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: mg04.nfeng6.pp.ua}, udp: true}
-  - {name: HK_718, server: 118.107.244.112, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: Relay_🇨🇳CN-🇹🇼TW_359, server: 120.233.10.182, port: 5704, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 63277:a4XecS, obfs-param: e167063277.microsoft.com, udp: true}
-  - {name: HK_737, server: 118.107.244.112, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: Relay_🇭🇰HK-🇭🇰HK_755, server: v1.mumi.bid, port: 10122, type: vmess, uuid: c8c213ae-a922-4aa2-bc75-e2b529e05362, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: v1.mumi.bid}, udp: true}
-  - {name: HK_721, server: 118.107.244.114, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: HK_722, server: 118.107.244.112, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: HK_696, server: 118.107.244.112, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: Relay_🇭🇰HK-🇭🇰HK_723, server: v1.mumi.bid, port: 10122, type: vmess, uuid: c8c213ae-a922-4aa2-bc75-e2b529e05362, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: v1.mumi.bid}, udp: true}
+  - {name: Relay_🇨🇳CN-🇭🇰HK_362, server: mg04.nfeng6.pp.ua, port: 63078, type: vmess, uuid: 042250a0-5c14-3394-b57e-cf4970f5dcfc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: mg04.nfeng6.pp.ua}, udp: true}
+  - {name: HK_708, server: 118.107.244.110, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: HK_685, server: 118.107.244.110, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: HK_683, server: 118.107.244.110, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: HK_676, server: 118.107.244.114, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: HK_704, server: 118.107.244.110, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: HK_712, server: 118.107.244.110, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: HK_692, server: 118.107.244.110, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: HK_671, server: 118.107.244.110, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: HK_699, server: 118.107.244.110, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: HK_710, server: 118.107.244.110, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: Relay_🇺🇸US-🇭🇰HK_2513 |13.26Mb, server: hkt.jslist.tk, port: 8880, type: vmess, uuid: efe08abe-e627-4f72-f02f-af00692a0bf4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /api/images, ws-headers: {Host: hkt.jslist.tk}, udp: true}
+  - {name: HK_716, server: 118.107.244.113, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: HK_706, server: 118.107.244.112, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: HK_672, server: 118.107.244.111, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: HK_726, server: 116.48.233.185, port: 44444, type: vmess, uuid: 3fd63a1f-3f1c-4f62-8073-dfce344a2bcf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US_1919 | 7.91Mb, server: 172.99.190.205, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US_1905 | 0.68Mb, server: 172.99.190.205, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: US_1327 |17.99Mb, server: 172.99.190.149, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Relay_🇨🇳CN-🇭🇰HK_328
-      - Relay_🇨🇳CN-🇹🇼TW_370
-      - Relay_🇨🇳CN-🇭🇰HK_345
-      - Relay_🇨🇳CN-🇭🇰HK_331
-      - Relay_🇨🇳CN-🇭🇰HK_398
-      - HK_718
-      - Relay_🇨🇳CN-🇹🇼TW_359
-      - HK_737
-      - Relay_🇭🇰HK-🇭🇰HK_755
-      - HK_721
-      - HK_722
-      - HK_696
+      - Relay_🇭🇰HK-🇭🇰HK_723
+      - Relay_🇨🇳CN-🇭🇰HK_362
+      - HK_708
+      - HK_685
+      - HK_683
+      - HK_676
+      - HK_704
+      - HK_712
+      - HK_692
+      - HK_671
+      - HK_699
+      - HK_710
+      - Relay_🇺🇸US-🇭🇰HK_2513 |13.26Mb
+      - HK_716
+      - HK_706
+      - HK_672
+      - HK_726
+      - US_1919 | 7.91Mb
+      - US_1905 | 0.68Mb
+      - US_1327 |17.99Mb
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - Relay_🇨🇳CN-🇭🇰HK_328
-      - Relay_🇨🇳CN-🇹🇼TW_370
-      - Relay_🇨🇳CN-🇭🇰HK_345
-      - Relay_🇨🇳CN-🇭🇰HK_331
-      - Relay_🇨🇳CN-🇭🇰HK_398
-      - HK_718
-      - Relay_🇨🇳CN-🇹🇼TW_359
-      - HK_737
-      - Relay_🇭🇰HK-🇭🇰HK_755
-      - HK_721
-      - HK_722
-      - HK_696
+      - Relay_🇭🇰HK-🇭🇰HK_723
+      - Relay_🇨🇳CN-🇭🇰HK_362
+      - HK_708
+      - HK_685
+      - HK_683
+      - HK_676
+      - HK_704
+      - HK_712
+      - HK_692
+      - HK_671
+      - HK_699
+      - HK_710
+      - Relay_🇺🇸US-🇭🇰HK_2513 |13.26Mb
+      - HK_716
+      - HK_706
+      - HK_672
+      - HK_726
+      - US_1919 | 7.91Mb
+      - US_1905 | 0.68Mb
+      - US_1327 |17.99Mb
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Relay_🇨🇳CN-🇭🇰HK_328
-      - Relay_🇨🇳CN-🇹🇼TW_370
-      - Relay_🇨🇳CN-🇭🇰HK_345
-      - Relay_🇨🇳CN-🇭🇰HK_331
-      - Relay_🇨🇳CN-🇭🇰HK_398
-      - HK_718
-      - Relay_🇨🇳CN-🇹🇼TW_359
-      - HK_737
-      - Relay_🇭🇰HK-🇭🇰HK_755
-      - HK_721
-      - HK_722
-      - HK_696
+      - Relay_🇭🇰HK-🇭🇰HK_723
+      - Relay_🇨🇳CN-🇭🇰HK_362
+      - HK_708
+      - HK_685
+      - HK_683
+      - HK_676
+      - HK_704
+      - HK_712
+      - HK_692
+      - HK_671
+      - HK_699
+      - HK_710
+      - Relay_🇺🇸US-🇭🇰HK_2513 |13.26Mb
+      - HK_716
+      - HK_706
+      - HK_672
+      - HK_726
+      - US_1919 | 7.91Mb
+      - US_1905 | 0.68Mb
+      - US_1327 |17.99Mb
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -88,18 +120,26 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Relay_🇨🇳CN-🇭🇰HK_328
-      - Relay_🇨🇳CN-🇹🇼TW_370
-      - Relay_🇨🇳CN-🇭🇰HK_345
-      - Relay_🇨🇳CN-🇭🇰HK_331
-      - Relay_🇨🇳CN-🇭🇰HK_398
-      - HK_718
-      - Relay_🇨🇳CN-🇹🇼TW_359
-      - HK_737
-      - Relay_🇭🇰HK-🇭🇰HK_755
-      - HK_721
-      - HK_722
-      - HK_696
+      - Relay_🇭🇰HK-🇭🇰HK_723
+      - Relay_🇨🇳CN-🇭🇰HK_362
+      - HK_708
+      - HK_685
+      - HK_683
+      - HK_676
+      - HK_704
+      - HK_712
+      - HK_692
+      - HK_671
+      - HK_699
+      - HK_710
+      - Relay_🇺🇸US-🇭🇰HK_2513 |13.26Mb
+      - HK_716
+      - HK_706
+      - HK_672
+      - HK_726
+      - US_1919 | 7.91Mb
+      - US_1905 | 0.68Mb
+      - US_1327 |17.99Mb
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -110,53 +150,77 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - Relay_🇨🇳CN-🇭🇰HK_328
-      - Relay_🇨🇳CN-🇹🇼TW_370
-      - Relay_🇨🇳CN-🇭🇰HK_345
-      - Relay_🇨🇳CN-🇭🇰HK_331
-      - Relay_🇨🇳CN-🇭🇰HK_398
-      - HK_718
-      - Relay_🇨🇳CN-🇹🇼TW_359
-      - HK_737
-      - Relay_🇭🇰HK-🇭🇰HK_755
-      - HK_721
-      - HK_722
-      - HK_696
+      - Relay_🇭🇰HK-🇭🇰HK_723
+      - Relay_🇨🇳CN-🇭🇰HK_362
+      - HK_708
+      - HK_685
+      - HK_683
+      - HK_676
+      - HK_704
+      - HK_712
+      - HK_692
+      - HK_671
+      - HK_699
+      - HK_710
+      - Relay_🇺🇸US-🇭🇰HK_2513 |13.26Mb
+      - HK_716
+      - HK_706
+      - HK_672
+      - HK_726
+      - US_1919 | 7.91Mb
+      - US_1905 | 0.68Mb
+      - US_1327 |17.99Mb
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - Relay_🇨🇳CN-🇭🇰HK_328
-      - Relay_🇨🇳CN-🇹🇼TW_370
-      - Relay_🇨🇳CN-🇭🇰HK_345
-      - Relay_🇨🇳CN-🇭🇰HK_331
-      - Relay_🇨🇳CN-🇭🇰HK_398
-      - HK_718
-      - Relay_🇨🇳CN-🇹🇼TW_359
-      - HK_737
-      - Relay_🇭🇰HK-🇭🇰HK_755
-      - HK_721
-      - HK_722
-      - HK_696
+      - Relay_🇭🇰HK-🇭🇰HK_723
+      - Relay_🇨🇳CN-🇭🇰HK_362
+      - HK_708
+      - HK_685
+      - HK_683
+      - HK_676
+      - HK_704
+      - HK_712
+      - HK_692
+      - HK_671
+      - HK_699
+      - HK_710
+      - Relay_🇺🇸US-🇭🇰HK_2513 |13.26Mb
+      - HK_716
+      - HK_706
+      - HK_672
+      - HK_726
+      - US_1919 | 7.91Mb
+      - US_1905 | 0.68Mb
+      - US_1327 |17.99Mb
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Relay_🇨🇳CN-🇭🇰HK_328
-      - Relay_🇨🇳CN-🇹🇼TW_370
-      - Relay_🇨🇳CN-🇭🇰HK_345
-      - Relay_🇨🇳CN-🇭🇰HK_331
-      - Relay_🇨🇳CN-🇭🇰HK_398
-      - HK_718
-      - Relay_🇨🇳CN-🇹🇼TW_359
-      - HK_737
-      - Relay_🇭🇰HK-🇭🇰HK_755
-      - HK_721
-      - HK_722
-      - HK_696
+      - Relay_🇭🇰HK-🇭🇰HK_723
+      - Relay_🇨🇳CN-🇭🇰HK_362
+      - HK_708
+      - HK_685
+      - HK_683
+      - HK_676
+      - HK_704
+      - HK_712
+      - HK_692
+      - HK_671
+      - HK_699
+      - HK_710
+      - Relay_🇺🇸US-🇭🇰HK_2513 |13.26Mb
+      - HK_716
+      - HK_706
+      - HK_672
+      - HK_726
+      - US_1919 | 7.91Mb
+      - US_1905 | 0.68Mb
+      - US_1327 |17.99Mb
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -172,18 +236,26 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Relay_🇨🇳CN-🇭🇰HK_328
-      - Relay_🇨🇳CN-🇹🇼TW_370
-      - Relay_🇨🇳CN-🇭🇰HK_345
-      - Relay_🇨🇳CN-🇭🇰HK_331
-      - Relay_🇨🇳CN-🇭🇰HK_398
-      - HK_718
-      - Relay_🇨🇳CN-🇹🇼TW_359
-      - HK_737
-      - Relay_🇭🇰HK-🇭🇰HK_755
-      - HK_721
-      - HK_722
-      - HK_696
+      - Relay_🇭🇰HK-🇭🇰HK_723
+      - Relay_🇨🇳CN-🇭🇰HK_362
+      - HK_708
+      - HK_685
+      - HK_683
+      - HK_676
+      - HK_704
+      - HK_712
+      - HK_692
+      - HK_671
+      - HK_699
+      - HK_710
+      - Relay_🇺🇸US-🇭🇰HK_2513 |13.26Mb
+      - HK_716
+      - HK_706
+      - HK_672
+      - HK_726
+      - US_1919 | 7.91Mb
+      - US_1905 | 0.68Mb
+      - US_1327 |17.99Mb
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
